@@ -14,6 +14,13 @@ chmod +x setup.sh
 
 Change the access and secret keys in [main.yml](https://github.com/nbandi7/terraform-mediawiki/blob/master/main.tf)
 
+### Init
+
+```
+terraform init
+```
+The terraform init command is used to initialize a working directory containing Terraform configuration files.
+
 ### Plan
 
 ```
