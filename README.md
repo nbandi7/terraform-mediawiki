@@ -4,7 +4,7 @@ This repository will help you install [MediaWiki](https://www.mediawiki.org/wiki
 
 ### Execution
 
-#### Setup the machine if provisioning from RHEL linux
+#### Setup the machine if provisioning from RHEL linux - [setup.sh](https://github.com/nbandi7/terraform-mediawiki/blob/master/setup.sh)
 
 ```
 chmod +x setup.sh
@@ -12,7 +12,7 @@ chmod +x setup.sh
 ```
 ### Acess keys and Secret keys
 
-Change the access and secret keys in main.yml
+Change the access and secret keys in [main.yml](https://github.com/nbandi7/terraform-mediawiki/blob/master/main.tf)
 
 ### Plan
 
