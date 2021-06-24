@@ -39,7 +39,7 @@ The terraform apply command executes the actions proposed in a Terraform plan.
 
 ### After apply
 
-* Wait for couple of minutes before mediawiki is being installed and configured. Use the output displayed on the screen in place of serverip http://serverip/w/index.php
+* Wait for couple of minutes(be patient) before mediawiki is being installed and configured. Use the output displayed on the screen in place of serverip http://serverip/w/index.php
 * Select the setup link, and proceed through the setup steps. Choose the MariaDB option when prompted for a database server, and enter the database name, username, and user password you created for MediaWiki.
 * Download the LocalSettings.php file when prompted at the end of the setup process, then move it or copy its contents to /var/www/html/w/LocalSettings.php
 * Adjust the file’s permissions
